@@ -1,0 +1,25 @@
+git config --global user.name "Nombre de User" #Se hace una sola vez al configurar el usuario
+git config --global user.email "Email" #Se hace una sola vez al configurar git 
+
+
+
+git clone <link de repo>
+#Se hace una sola vez al inicio. el link es el link del repositior de github 
+
+#Se hacen los cambios y seagregan archivos a mi programa y luego: 
+
+git add <Archivo> 
+#Agrega el archivo ingresado al staging Agrega
+
+
+git commit -m "Comentario que quieran agregar"
+ #Agrega comentario y subi todos los archivos del stagin area al repositorio
+
+
+git log
+#Me da inforamcion de que archivos estan en mi stagin area
+y cuales estan solo en mi working directory
+
+git push 
+#Envia al servidor de github mi repositorio
+
